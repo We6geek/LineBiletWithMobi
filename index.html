@@ -196,6 +196,8 @@
 });
     </script>
     <script>
+        document.addEventListener('touchstart', onTouchStart, {passive: true});
+
         $(document).ready(function () {
   $(".multiple-items").slick({
     infinite: true,
@@ -205,7 +207,7 @@
     autoplay: true,
     dots: true,
     arrows: false,
-    autoplaySpeed: 5000,
+    autoplaySpeed: 3000,
     initialSlide: 1,
     responsive: [
       {
