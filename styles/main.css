@@ -587,7 +587,7 @@ footer{
   }
   .about-wrapper_img{
     width: 150px;
-    height: 220px;
+    height: auto;
   }
   .about-hr{
     width: 300px;
